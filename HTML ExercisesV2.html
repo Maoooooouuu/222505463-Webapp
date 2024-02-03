@@ -5,21 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
         <title>HTML Exercise</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <style>
-            table,th,td{
-                border: 1px solid black;
-                border-collapse: collapse;
+        <link rel="stylesheet" href="style.css">
         
-            }
-            body{
-                background-color: azure;
-            }
-                
-            
-        </style>
+     
+        
 </head>
 <body>
     <header>
@@ -31,6 +20,9 @@
                 <li><a href="#FORM">FORM</a></li>
                 <li><a href="#TABLE">TABLE</a></li>
                 <li><a href="#AUDIO and VISUAL">AUDIO and VISUAL</a></li>
+                <li><a href="#Iframe">IFRAME</a></li>
+                <li><a href="#embedded">EMBEDDED WIDGET</a></li>
+                
             </menu> 
         </section>
     </header> 
@@ -50,8 +42,23 @@
                     </div>
                     <div class="mb-3">
                         <label for ="Passform" class="form-control" >Password</label>
-                        <input type="password" class="form-control" id="Passform" minlength="6" required>
+                        <input type="password" class="form-control" id="Passform" pattern=".{6,}" title="6 or more character" required>
                     </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" placeholder="ex: name123@gmail.com" id="floatingInput" required>
+                        <label for="floatingInput" class="form-label">Email Address</label>
+                    </div>
+                    <div>
+                        <input type="tel" name="number" id="number" placeholder="ex: 0321-546-7845" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                        <label for="number">Cellphone Number</label>
+            
+
+                    </div>
+                    <div class="mb-3">
+                        <input type="date" id="date" name="date" required>
+                        <label for="date">Date</label>
+                    </div>
+                    
                     <div class="mb-3 radio-button">
                         <input type="radio" class="btn-check" name="options-base" id="option1" required>
                         <label class="btn-check" for="option1">Male</label>
@@ -93,7 +100,23 @@
             <video width="400" controls>
             <source src="https://archive.org/download/VipursDankMemeVideos/DankMemeCompilationV5-5Or5N3i3NmQ.mp4" type="video/mp4"> 
             </video> 
-        </section>     
-        <footer>Author: Magno, Mark Lawrence O.</footer>
+        </section>
+        <section id="Iframe">
+            <h2>IFRAME</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30681.11323154591!2d120.78454725!3d16.006270049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339119006bb76a4d%3A0x892d8860415c0f04!2sSir%20Treas%20Store!5e0!3m2!1sen!2sph!4v1706937785862!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
+        </section>   
+        <section id="embedded">
+         <h2>EMBEDDED WIDGET</h2>   
+         <blockquote class="twitter-tweet">
+             <p lang="en" dir="ltr">When you publicly like hentai on your twitter 
+                 <a href="https://t.co/SYl0eXyNXp">pic.twitter.com/SYl0eXyNXp</a>
+                 </p>&mdash; Gigguk (@GiggukAZ) 
+                 <a href="https://twitter.com/GiggukAZ/status/1282678330026647558?ref_src=twsrc%5Etfw">July 13, 2020</a>
+         </blockquote> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+        <button id="colorchanger">Click For a Magic</button> 
+        <script src="function.js"></script> 
+    <footer>Author: Magno, Mark Lawrence O.</footer>
 </body>
 </html>
