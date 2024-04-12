@@ -1,9 +1,9 @@
 html,
 body {
   min-width: 290px;
-  color: #4d4e53;
+  color: #030b32;
   background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 #navbar li {
-  color: #4d4e53;
+  color: #030b32;
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -49,7 +49,7 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: #030b32;
   text-decoration: none;
   cursor: pointer;
 }
@@ -62,7 +62,7 @@ header {
 }
 
 section article {
-  color: #4d4e53;
+  color: #030b32;
   margin: 15px;
   font-size: 0.96em;
 }
