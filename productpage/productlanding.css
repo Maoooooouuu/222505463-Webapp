@@ -1,6 +1,5 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 * {
   margin: 0;
@@ -10,7 +9,7 @@
 
 body {
   background-color: #eee;
-  font-family: 'Lato', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #page-wrapper {
@@ -22,7 +21,7 @@ li {
 }
 
 a {
-  color: #000;
+  color: #ff0000;
   text-decoration: none;
 }
 
@@ -155,7 +154,7 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #ff0000;
 }
 
 #hero input[type='submit']:hover {
@@ -179,7 +178,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: #ff0000;
 }
 
 @media (max-width: 550px) {
@@ -242,7 +241,7 @@ nav > ul {
 }
 
 .product > .level {
-  background-color: #ddd;
+  background-color: #b57d7d;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -265,7 +264,7 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #02d829;
   font-weight: 400;
 }
 
@@ -288,7 +287,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #04fdfd;
   padding: 20px;
 }
 
